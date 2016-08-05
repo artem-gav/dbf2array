@@ -1,0 +1,19 @@
+{
+    "name": "Forge0100/dbf2array",
+    "description": "Converting DBF file to PHP-array",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Forge0100",
+            "email": "artem0100@ukr.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-0" : {
+            "xBase2Array" : "src"
+        }
+    }
+}
+
