@@ -12,12 +12,13 @@ class GenerateHtmlTable
         $str = ""; // string for writing html table
         $_count=0; // counter for first column (indexes)
 
-        $str .= "<table class='table-data'>";
+        $str .= "<div class='container'>";
+        $str .= "<table class='table table-bordered'>";
 
         // If sent $titles array
         if(isset($titles)) {
             // Header
-            $str .=  "<tr>";
+            $str .=  "<tr class='info'>";
             foreach($titles as $title) {
 
                 // Hide all field that have in $hideFields array
@@ -52,6 +53,7 @@ class GenerateHtmlTable
         }
 
         $str .=  "</table>";
+        $str .= "</div>";
 
         return $str;
     }
