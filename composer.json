@@ -1,6 +1,6 @@
 {
-    "name": "Forge0100/dbf2array",
-    "description": "Converting DBF file to PHP-array",
+    "name": "forge0100/dbf2array",
+    "description": "Converting DBF file to PHP-array.",
     "type": "library",
     "authors": [
         {
