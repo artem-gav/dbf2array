@@ -9,8 +9,6 @@ class Converter
     public $array_inverted = false;
     public $formatDate = "d.m.Y";
     public $link_index = "nr_system";
-//    public $field_sorting = "data";
-//    public $sorting = SORT_ASC;
 
     private $columns;
     private $rows;
